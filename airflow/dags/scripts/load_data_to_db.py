@@ -42,7 +42,7 @@ cursor = conn.cursor()
 home_dir = os.path.expanduser("~")
 
 # Define the relative path to the CSV file
-relative_path = "datasets.csv"  # Replace "datasets.csv" with the actual name of your CSV file
+relative_path = "dataset.csv"  # Replace "datasets.csv" with the actual name of your CSV file
 
 # Combine the home directory with the relative path to get the actual path to the CSV file
 csv_file = os.path.join(home_dir, relative_path)
