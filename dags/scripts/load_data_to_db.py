@@ -3,9 +3,9 @@ import mysql.connector
 import os
 
 # Define the MySQL database connection parameters
-host = 'localhost'
-user = 'root'
-password = 'dimas123.'
+host = 'CHANGE'
+user = 'CHANGE'
+password = 'CHANGE'
 database = 'rawg_db'
 
 # Connect to MySQL and create the database
